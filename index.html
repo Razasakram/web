@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="bg-slate-900  flex justify-between ">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG81yocAQIVGTd_w68fSxcjc7iIiqipgDfAw&usqp=CAU"
+            alt="" class="h-10 py-1 px-3 rounded-3xl  " class="rounded-3xl">
+        <ul class="text-white space-x-6 flex justify-end px-20 py-2">
+            <li class="cursor-pointer">contact</li>
+            <li class="cursor-pointer">address</li>
+            <li class="cursor-pointer">number</li>
+            <li class="cursor-pointer">home</li>
+        </ul>
+    </nav>
+
+    <div class="bg-slate-500 h-auto py-5 ">
+
+        <div class="flex justify-end px-3 py-3 rounded-3xl" >
+            <img src="data:image/png;base64,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"
+                alt="">
+        </div>
+
+        <div class="text-6xl text-black pl-8">
+            The best icecream shop in the town.
+        </div>
+
+        <div class=" pl-8 py-3  ">
+            <p class="w-1/2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla quaerat vero dicta
+                quibusdam in nisi
+                minima nemo et odio asperiores, alias iste voluptate</p>
+        </div>
+        <div class="pl-3 py-12 ">
+            <button
+                class="bg-slate-900 px-2 py-3 text-white rounded-2xl hover:bg-slate-300 hover:text-slate-900 text-1xl  ">Buy
+                Now</button>
+            <button
+                class="bg-slate-900 px-2 py-3 text-white rounded-2xl hover:bg-slate-300 hover:text-slate-900 text-1xl  ">Contact
+                Us </button>
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+</body>
+
+</html>
